@@ -1,0 +1,19 @@
+
+.class{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: 200px;
+    text-align: center;
+    font-size: 1.2em;
+}
+@media only screen and (max-width:720px){
+    .class{
+        height: 550px;
+        width: auto;
+    }
+    
+}

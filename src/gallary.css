@@ -1,0 +1,50 @@
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: gainsboro;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.bike {
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.bike button{
+  margin-left: 150px;
+  background-color:lightgray  ;
+  color: darkblue;
+  border-radius: 5px;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+.bike img {
+  width: 100%;
+  border-radius: 10px;
+} 
+
+.bike p {
+  margin: 5px 0;
+  color:rgb(49, 43, 43);
+}
+
+.bike:hover {
+  transform: scale(1.05);
+}
+

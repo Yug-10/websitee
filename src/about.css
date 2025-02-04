@@ -1,0 +1,84 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    /* max-width: 1200px; */
+    max-width:1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .bike {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .bike:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bike img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .bike p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .bike p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* .bike p:last-child {
+    color: #007bff;
+    font-weight: bold;
+  } */
+
+  .b1{
+    padding-left: 1150px;
+  }
+
+
+
+  button{
+    font-size: medium;
+    width: 100px;
+    border-radius: 5px;
+    color:darkslateblue;
+    
+    background-color:lightgray;
+    
+  }
+@media only screen and (max-width:450px){
+  .b1{
+   padding-left:260px;
+   font-size: xx-small;
+
+  }
+  }
+
+    

@@ -1,0 +1,122 @@
+.main{
+    padding-top: 0px;
+    margin: 50px;
+    border: 15px;
+    box-shadow: 0 30px 8px rgba(34, 32, 32, 0.1);
+    display: flex;
+}   
+
+.sb1 h1{
+    font-size: 30px;
+    
+}
+
+.sb1{
+    padding-left: 10px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.specification{
+    
+    box-sizing: border-box;
+    box-shadow: 0 30px 8px rgba(34, 32, 32, 0.1);
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.specification h2{
+    text-align: center;
+}
+
+.specification1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 200px;
+    padding-top: 85px;
+    display: flex;
+    font-size: 20px;
+}
+
+.specification2{
+    box-sizing: border-box;
+    box-shadow: 0 30px 8px rgba(34, 32, 32, 0.1);
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+}
+
+.specification22{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 180px;
+    padding-top: 85px;  
+    display: flex;
+    font-size: 20px;
+}
+
+.specification3{
+    
+    box-sizing: border-box;
+    box-shadow: 0 30px 8px rgba(34, 32, 32, 0.1);
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+    
+}
+
+.specification4{
+    
+    box-sizing: border-box;
+    box-shadow: 0 30px 8px rgba(34, 32, 32, 0.1);
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+}
+
+.videos{
+    width: 100px;
+    height: auto;
+}
+
+@media only screen and (max-width:450px){
+    .sb1{
+        font-size: medium;
+        width: auto;
+        height: 350px;
+    }
+    
+    .main{
+        flex-direction: column;
+        
+    }
+    .Details{
+        padding-left: auto;
+    }
+    .specification1{
+        padding-left:60px;
+        padding-right:150px;
+        font-size: small;
+        
+    }
+
+    .specification22{
+        padding-left: 10px;
+        padding-right:100px;
+        font-size: small;
+    }
+
+    /*  */
+
+    .specification{
+        font-size: small;
+    }
+    .specification2{
+        font-size: smaller;
+    }
+    .specification3{
+        font-size: small;
+    }
+} 
